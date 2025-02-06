@@ -6,11 +6,11 @@ logging.basicConfig(filename="weather_app.log", level=logging.INFO,
                     format="%(asctime)s - %(levelname)s - %(message)s")
 
 class WeatherFetcher:
-    """Fetches weather data from Open-Meteo API."""
+    #Fetches weather data from Open-Meteo API
     API_URL = "https://api.open-meteo.com/v1/forecast"
 
     def get_weather(self, latitude, longitude):
-        """Fetch weather data for given coordinates."""
+        #Fetch weather data for given coordinates
         try:
             params = {
                 "latitude": latitude,
@@ -28,7 +28,7 @@ class WeatherFetcher:
             return None
 
 class WeatherReport(WeatherFetcher):
-    """Generates and displays a weather report."""
+    #Generates and displays a weather report
     
     def display_weather(self, latitude, longitude):
         """Fetch and display formatted weather information."""
