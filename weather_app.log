@@ -1,8 +1,1 @@
-2025-02-06 23:31:07,986 - ERROR - Error fetching weather data: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=Mexico&appid=your_api_key_here&units=metric
-2025-02-06 23:36:56,108 - ERROR - Error fetching weather data: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=Mexico&appid=your_api_key_here&units=metric
-2025-02-06 23:43:31,495 - ERROR - Error fetching weather data: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=Mexico&appid=00b305f83eb26421aad12065e62b75c0&units=metric
-2025-02-06 23:43:47,878 - ERROR - Error fetching weather data: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=Mexico%2C+PH&appid=00b305f83eb26421aad12065e62b75c0&units=metric
-2025-02-06 23:45:58,202 - ERROR - Error fetching weather data: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=your_actual_api_key_here&units=metric&q=London&appid=00b305f83eb26421aad12065e62b75c0&units=metric
-2025-02-06 23:46:15,446 - ERROR - Error fetching weather data: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=00b305f83eb26421aad12065e62b75c0&units=metric
-2025-02-06 23:47:28,089 - ERROR - Error fetching weather data: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?q=London&appid=00b305f83eb26421aad12065e62b75c0&units=metric
 2025-02-06 23:55:15,268 - INFO - Successfully fetched weather data for coordinates (52.0, 13.0)
